@@ -33,7 +33,7 @@ jQuery(function($){
     
     
   jQuery(window).bind('scroll', function () {
-    if (jQuery(window).scrollTop() > 130) {
+    if (jQuery(window).scrollTop() > 30) {
         jQuery('.mu-main-navbar').addClass('navbar-bg');
         jQuery('.navbar-brand').addClass('navbar-brand-small');        
       } else {
