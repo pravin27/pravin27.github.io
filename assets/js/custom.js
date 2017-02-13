@@ -285,7 +285,7 @@ $('.overlay').show();
 			  },500);   
 			  var portfolio_detailscontent = $('.valentines').html();
 			  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
-		 }, 3500);  
+		 }, 3100);  
     })
    
   
