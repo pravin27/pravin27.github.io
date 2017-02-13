@@ -2761,6 +2761,10 @@ RESERVATION SECTION
 	color:#333;
 }
 
+#portfolio-popup h3 span{
+	padding-right:65px;	
+}
+
 li a.spl {
 	font-weight:bold!important;
 	color:red!important;
