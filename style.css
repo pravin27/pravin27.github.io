@@ -1018,7 +1018,7 @@ RESERVATION SECTION
 }
 
 #portfolio-popup.portfolio-popup-show, #serviceDown-popup.portfolio-popup-show{
-	align-items: center;
+	
 	display: flex;
 	width:70%;
 	margin:0 auto;
@@ -2758,11 +2758,12 @@ RESERVATION SECTION
 #portfolio-popup .items .menuTitle{
     font-size: 45px;
     font-family: "Tangerine", cursive;
-	color:#333;
+	color:#c1a35f;
 }
 
 #portfolio-popup h3 span{
-	padding-right:65px;	
+	padding-right:65px;
+	color:#c1a35f;
 }
 
 li a.spl {
