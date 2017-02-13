@@ -2758,3 +2758,7 @@ display: flex;
     font-family: "Tangerine", cursive;
 	color:#333;
 }
+
+li a.spl {
+	font-weight:bold;
+}
