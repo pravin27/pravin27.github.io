@@ -141,7 +141,7 @@ jQuery(function($){
 	  },500);   
 	  var portfolio_detailscontent = $(this).parent(".mu-single-gallery-info").find(".portfolio-detail").html();
 	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
-	
+	$('.overlay').show();	
 	});  
 	
 	jQuery('.spl').on('click', function(event) {
@@ -152,7 +152,7 @@ jQuery(function($){
 	  },500);   
 	  var portfolio_detailscontent = $('.valentines').html();
 	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
-	
+	$('.overlay').show();	
 	}); 
 
 	$('body').append("<div id='serviceDown-popup'><div class='portfolio-popup-area'><div class='portfolio-popup-inner'></div></div></div>");
@@ -285,7 +285,8 @@ $('.overlay').show();
 			  },500);   
 			  var portfolio_detailscontent = $('.valentines').html();
 			  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
-		 }, 3100);  
+		$('.overlay').show();	
+		 }, 1000);  
     })
    
   
