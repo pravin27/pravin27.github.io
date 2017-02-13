@@ -2762,7 +2762,7 @@ RESERVATION SECTION
 }
 
 li a.spl {
-	font-weight:bold;
-	color:red;
-	font-size:20px;
+	font-weight:bold!important;
+	color:red!important;
+	font-size:20px!important;
 }
