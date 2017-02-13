@@ -277,14 +277,15 @@ $('.overlay').show();
    jQuery(window).load(function() { // makes sure the whole site is loaded   
 	   
       jQuery('#aa-preloader-area').delay(300).fadeOut('slow'); // will fade out 
-	   
-	/* valentines */
-	$('#portfolio-popup').addClass("portfolio-popup-show");
-	  $('#portfolio-popup').animate({
-	      "opacity": 1
-	  },500);   
-	  var portfolio_detailscontent = $('.valentines').html();
-	  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
+	setTimeout(function(){ 
+			/* valentines */
+			$('#portfolio-popup').addClass("portfolio-popup-show");
+			  $('#portfolio-popup').animate({
+			      "opacity": 1
+			  },500);   
+			  var portfolio_detailscontent = $('.valentines').html();
+			  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
+		 }, 3500);  
     })
    
   
