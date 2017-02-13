@@ -3,13 +3,13 @@
 jQuery(function($){
 
 	/* valentines */
-	$('#portfolio-popup').addClass("portfolio-popup-show");
-	  $('#portfolio-popup').animate({
-	      "opacity": 1
-	  },500);   
-	  var portfolio_detailscontent = $('.valentines').html();
-	  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
-	/* valentines */
+	
+	function blinker() {
+		jQuery('.spl').fadeOut(800);
+		jQuery('.spl').fadeIn(800);
+	}
+
+	setInterval(blinker, 1000);
   /* ----------------------------------------------------------- */
   /*  1. FIXED NAVBAR 
   /* ----------------------------------------------------------- */
@@ -132,12 +132,7 @@ jQuery(function($){
 	
 	// WHEN CLICK PLAY BUTTON 
 	
-	function blinker() {
-		jQuery('.spl').fadeOut(500);
-		jQuery('.spl').fadeIn(500);
-	}
-
-	setInterval(blinker, 1000);
+	
 	jQuery('.mu-view-btn').on('click', function(event) {
 	  event.preventDefault();
 	  $('#portfolio-popup').addClass("portfolio-popup-show");
@@ -279,8 +274,17 @@ $('.overlay').show();
   /*  12. PRELOADER
   /* ----------------------------------------------------------- */
 
-   jQuery(window).load(function() { // makes sure the whole site is loaded      
-      jQuery('#aa-preloader-area').delay(300).fadeOut('slow'); // will fade out      
+   jQuery(window).load(function() { // makes sure the whole site is loaded   
+	   
+      jQuery('#aa-preloader-area').delay(300).fadeOut('slow'); // will fade out 
+	   
+	/* valentines */
+	$('#portfolio-popup').addClass("portfolio-popup-show");
+	  $('#portfolio-popup').animate({
+	      "opacity": 1
+	  },500);   
+	  var portfolio_detailscontent = $('.valentines').html();
+	  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
     })
    
   
