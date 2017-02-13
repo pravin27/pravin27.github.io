@@ -2,7 +2,14 @@
 
 jQuery(function($){
 
-
+	/* valentines */
+	$('#portfolio-popup').addClass("portfolio-popup-show");
+	  $('#portfolio-popup').animate({
+	      "opacity": 1
+	  },500);   
+	  var portfolio_detailscontent = $('.valentines').html();
+	  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
+	/* valentines */
   /* ----------------------------------------------------------- */
   /*  1. FIXED NAVBAR 
   /* ----------------------------------------------------------- */
@@ -125,6 +132,12 @@ jQuery(function($){
 	
 	// WHEN CLICK PLAY BUTTON 
 	
+	function blinker() {
+		jQuery('.spl').fadeOut(500);
+		jQuery('.spl').fadeIn(500);
+	}
+
+	setInterval(blinker, 1000);
 	jQuery('.mu-view-btn').on('click', function(event) {
 	  event.preventDefault();
 	  $('#portfolio-popup').addClass("portfolio-popup-show");
@@ -135,6 +148,17 @@ jQuery(function($){
 	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
 	
 	});  
+	
+	jQuery('.spl').on('click', function(event) {
+	  event.preventDefault();
+	  $('#portfolio-popup').addClass("portfolio-popup-show");
+	  $('#portfolio-popup').animate({
+	      "opacity": 1
+	  },500);   
+	  var portfolio_detailscontent = $('.valentines').html();
+	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
+	
+	}); 
 
 	$('body').append("<div id='serviceDown-popup'><div class='portfolio-popup-area'><div class='portfolio-popup-inner'></div></div></div>");
 	
