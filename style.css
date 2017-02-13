@@ -2752,3 +2752,9 @@ display: flex;
     position: fixed;
 	display:none;
 }
+
+.valentines .items {
+    font-size: 45px;
+    font-family: "Tangerine", cursive;
+	color:#333;
+}
