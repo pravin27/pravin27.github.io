@@ -2777,9 +2777,16 @@ font-family: "Tangerine", cursive;
 	color:brown;
 }
 
-#portfolio-popup h3 span{
-	padding-right:65px;
+#portfolio-popup h3 span {
+	
 	color:#c1a35f;
+	font-size:74%;
+}
+#portfolio-popup h3 span:first-child {
+	float:left;
+}
+#portfolio-popup h3 span:last-child {
+	float:right;
 }
 
 li a.spl {
