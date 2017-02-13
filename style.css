@@ -2787,3 +2787,7 @@ li a.spl {
 	color:red!important;
 	font-size:20px!important;
 }
+
+#mu-restaurant-menu li a.spl {
+	list-style-type:none!important;
+}
