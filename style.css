@@ -1019,7 +1019,9 @@ RESERVATION SECTION
 
 #portfolio-popup.portfolio-popup-show, #serviceDown-popup.portfolio-popup-show{
 	align-items: center;
-display: flex;
+	display: flex;
+	width:70%;
+	margin:0 auto;
 }
 
 #serviceDown-popup.portfolio-popup-show{
@@ -2753,7 +2755,7 @@ display: flex;
 	display:none;
 }
 
-.valentines .items {
+#portfolio-popup .items .menuTitle{
     font-size: 45px;
     font-family: "Tangerine", cursive;
 	color:#333;
@@ -2761,4 +2763,6 @@ display: flex;
 
 li a.spl {
 	font-weight:bold;
+	color:red;
+	font-size:20px;
 }
