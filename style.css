@@ -2754,10 +2754,14 @@ RESERVATION SECTION
     position: fixed;
 	display:none;
 }
-
+#portfolio-popup .items {
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+    padding: 15px 0;
+}
 #portfolio-popup .items p{
-    font-size: 20px;
-	color:#c1a35f;
+    font-size: 17px;
+
 
 }
 #portfolio-popup .head {
@@ -2770,7 +2774,7 @@ font-family: "Tangerine", cursive;
 #portfolio-popup .items p.menuTitle{
     font-size: 20px;
 	
-	color:#333;
+	color:brown;
 }
 
 #portfolio-popup h3 span{
