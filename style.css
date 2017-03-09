@@ -985,7 +985,7 @@ RESERVATION SECTION
 .portfolio-popup-area{
 	display: block;
 	float: left;
-	padding: 40px 15%;
+	padding: 40px 2%;
 	width: 100%;
 }
 
@@ -2759,10 +2759,15 @@ RESERVATION SECTION
     border-bottom-style: dashed;
     padding: 15px 0;
 }
+#portfolio-popup h4 {
+	font-weight:bold;
+}
 #portfolio-popup .items p{
     font-size: 17px;
-
-
+}
+#portfolio-popup .rightCol {
+	border-left:1px solid #333;
+	border-left-style: dashed;
 }
 #portfolio-popup .head {
 	font-size:45px;
@@ -2776,12 +2781,17 @@ font-family: "Tangerine", cursive;
 	
 	color:brown;
 }
-
+#portfolio-popup .items.rates p{
+	font-size: 15px;
+	font-weight:bold;
+	color:#c1a35f;
+}
 #portfolio-popup h3 span {
-	
+	margin:20px 0;
 	color:#c1a35f;
 	font-size:74%;
 }
+
 #portfolio-popup h3 span:first-child {
 	float:left;
 }
