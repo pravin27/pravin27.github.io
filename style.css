@@ -2769,6 +2769,12 @@ RESERVATION SECTION
 	border-left:1px solid #333;
 	border-left-style: dashed;
 }
+.takeAway p {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#950b1f;
+	font-size:16px;
+	font-weight:bold;
+}
 #portfolio-popup .head {
 	font-size:45px;
 font-family: "Tangerine", cursive; 
