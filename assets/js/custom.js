@@ -5,8 +5,8 @@ jQuery(function($){
 	/* valentines */
 	
 	function blinker() {
-		jQuery('.spl').fadeOut(800);
-		jQuery('.spl').fadeIn(800);
+		//jQuery('.spl').fadeOut(800);
+		//jQuery('.spl').fadeIn(800);
 	}
 
 	setInterval(blinker, 1000);
@@ -144,7 +144,7 @@ jQuery(function($){
 	$('.overlay').show();	
 	});  
 	
-	jQuery('.spl').on('click', function(event) {
+	/*jQuery('.spl').on('click', function(event) {
 	  event.preventDefault();
 	  $('#portfolio-popup').addClass("portfolio-popup-show");
 	  $('#portfolio-popup').animate({
@@ -153,7 +153,7 @@ jQuery(function($){
 	  var portfolio_detailscontent = $('.valentines').html();
 	  $(".portfolio-popup-inner").html(portfolio_detailscontent);     
 	$('.overlay').show();	
-	}); 
+	}); */
 
 	$('body').append("<div id='serviceDown-popup'><div class='portfolio-popup-area'><div class='portfolio-popup-inner'></div></div></div>");
 	
