@@ -276,9 +276,9 @@ $('.overlay').show();
 
    jQuery(window).load(function() { // makes sure the whole site is loaded   
 	   
-      jQuery('#aa-preloader-area').delay(300).fadeOut('slow'); // will fade out 
+     /* jQuery('#aa-preloader-area').delay(300).fadeOut('slow'); // will fade out 
 	setTimeout(function(){ 
-			/* valentines */
+	
 			$('#portfolio-popup').addClass("portfolio-popup-show");
 			  $('#portfolio-popup').animate({
 			      "opacity": 1
@@ -287,7 +287,7 @@ $('.overlay').show();
 			  $(".portfolio-popup-inner").html(portfolio_detailscontent); 
 		$('.overlay').show();	
 		 }, 1000);  
-    })
+    }) */
    
   
 });
