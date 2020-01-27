@@ -46,7 +46,12 @@
     <![endif]-->
 
 	<style>
-	body .overlay img {
+	
+	body section, body footer {
+		display: none;
+	}
+	
+	body .comingSoon img{
 		position: fixed !important;
 		width: 100% !important;
 		height: 100% !important;
@@ -62,6 +67,11 @@
       <img src="assets/img/preloader.gif" alt=" loader img">
     </div>
   </div>
+  
+   <div class="comingSoon">
+	<img src="assets/img/comingSoon.jpg" alt=" Coming Soon">
+  </div>
+  
   <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="javascript:void(0);" >
       <i class="fa fa-angle-up"></i>
@@ -2508,9 +2518,7 @@
   </footer>
   <!-- End Footer -->
   
-  <div class="overlay">
-  <img src="assets/img/comingSoon.jpg" alt=" Coming Soon">
-  </div>
+
   
   <!-- jQuery library -->
   <script src="assets/js/jquery.min.js"></script>  
