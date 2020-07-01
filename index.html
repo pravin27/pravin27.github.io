@@ -23,6 +23,7 @@
 
     <!-- Main style sheet -->
     <link href="style.css" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
 
    
     <!-- Google Fonts -->
@@ -30,6 +31,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
     
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
 	<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,6 +41,7 @@
   ga('create', 'UA-89326143-1', 'auto');
   ga('send', 'pageview');
 </script>
+<script type="text/javascript" src="assets/js/C3counter.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,7 +49,36 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>  
+  <body id="introduction">  
+
+    <!-- Count down -->
+    <div id="page">
+      <div id="container" class="content clearfix">
+        <div class="offerHolder">
+            <div class="special">
+              <div id="text">
+                <span class="text">Navaratna Restaurant</span> 
+                <div>Will Re-open Shortly </div>
+              </div>
+              <div id="counter">				
+                <div id="shading">&nbsp;</div>
+              </div>			
+              
+              <script type="text/javascript">
+                // Default options 
+                var date1 = new Date(); // current date
+                var date2 = new Date("07/04/2020"); // mm/dd/yyyy format
+                var timeDiff = Math.abs(date2.getTime() - date1.getTime()); // in miliseconds
+                var timeDiffInSecond = Math.ceil(timeDiff / 1000); // in second
+                C3Counter("counter", { startTime :timeDiffInSecond  });
+              </script>
+            </div>
+          </a>
+    </div>		
+    </div>   
+     </div> 
+
+     <!-- Count Down ends -->
   <!-- Pre Loader -->
   <div id="aa-preloader-area">
     <div class="mu-preloader">
@@ -2497,8 +2530,6 @@
   
 
   
-  <!-- jQuery library -->
-  <script src="assets/js/jquery.min.js"></script>  
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.js"></script>   
   <!-- Slick slider -->
