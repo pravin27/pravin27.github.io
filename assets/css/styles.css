@@ -45,13 +45,15 @@ a:hover{text-decoration:underline;}
 .special {
 	position:relative;
 	float:left;
-	width:840px;
+	width:400px;
 	height:247px;
 	margin: 0 auto;
     background-position: 0px 74px;
     background-repeat: no-repeat;
 	margin-bottom:46px;
 	cursor:pointer;
+	background: #0a0a0aad;
+    padding-top: 34px;
 	
 }
 #text {
