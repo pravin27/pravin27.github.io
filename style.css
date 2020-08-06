@@ -528,7 +528,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 35px;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area {
   display: inline;
@@ -2813,4 +2813,13 @@ li a.spl {
 
 #mu-restaurant-menu li {
 	list-style-type:none!important;
+}
+
+.workingHours {
+	margin: 20px 0;
+}
+
+.sub-title {
+	color: #123 !important;
+	text-decoration: underline;
 }
