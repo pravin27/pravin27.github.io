@@ -23,13 +23,17 @@
 
     <!-- Main style sheet -->
     <link href="style.css" rel="stylesheet">    
-
-   
+<script src="assets/js/bootstrap.js"></script>   
+   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
-    
+    <script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
   <!-- jQuery library -->
   <script src="assets/js/jquery.min.js"></script>  
 	<script type="text/javascript">
@@ -241,7 +245,8 @@
                 <div class="mu-about-us-left">                           
 				<p>South Indian food and Indian Currys are among UK’s favourites cuisines. We saw the opportunity, when we noticed the lack of authentic South Indian dishes at reasonable cost in Croydon, especially South End and we decided to open up a South Indian Restaurant that serves South Indian delicacies in its own flavours yet adapting to the spice (mild) requirements of London foodies.</p>
 	
-	<img style="wisth:48%;max-height:300px;margin: 0 auto;display:block;margin-bottom:15px;" src="assets/img/about-us/hygiene.jpg" alt="img">
+	<img style="width:48%;max-height:300px;margin: 0 auto;display:block;margin-bottom:15px;" src="assets/img/about-us/hygiene.jpg" alt="img">
+	<!-- <img style="width:48%;max-height:300px;margin: 0 auto;display:block;margin-bottom:15px;" src="assets/img/about-us/offer.jfif" alt="img"> -->
 	
 				<p>For few years ‘Croydonites’ were bored with Dosas and Chutneys served by large scale regular outlets who let customers down, with every dish they serve, and drive down peoples interest in Indian food. We want to reverse this trend and re-kindle people’s interest in Indian cuisine specially South Indian varieties by offering India’s regional (South India) cuisines – from cities like Chennai, Mysore, Cochin, Chetinad, Hyderabad – which collectively share the richness of South Indian dishes to the rest of the world.</p>
 				
@@ -2568,7 +2573,19 @@
   </footer>
   <!-- End Footer -->
   
-
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" style="margin-top: -4px; color: black; opacity: 1; width: 50px; height: 10px; font-size: 36px;" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" style="text-align: center; margin-left: 36px;">Welcome Back Offer</h4>
+            </div>
+            <div class="modal-body">
+                <img style="width:54%;margin: 0 auto;display:block;margin-bottom:15px;" src="assets/img/about-us/eat.jfif" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
   
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.js"></script>   
