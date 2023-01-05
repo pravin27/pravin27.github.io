@@ -557,7 +557,7 @@ img {
   border-radius: 0;
   color: #fff;
   font-size: 115%;
-  margin: 0 15px 0 0;
+  margin: 0 7px 0 0;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -647,12 +647,303 @@ img {
     background-repeat: no-repeat;
 	display:inline-block;
 }
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .sparklingWine,.sparklingWine {
+	width: 28px;
+    height: 45px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/sparklingWine.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .sparklingGlass,.sparklingGlass {
+	width: 32px;
+  height: 48px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/sparklingGlass.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+
+/* New IMG CSS **/
+.footerDrinks .sparklingGlass {
+  width: 32px;
+  height: 38px;
+    background-position: -5px 0px;
+    background-image: url("assets/img/sparklingGlass.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .sparklingWine {
+  width: 32px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/sparklingWine.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .roseBottle,.roseBottle {
+	width: 28px;
+    height: 46px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/roseBottle.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .roseGlass,.roseGlass {
+  width: 28px;
+  height: 58px;
+    background-position: 6px 0px;
+    background-image: url("assets/img/roseGlass.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .roseGlass {
+  width: 30px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/roseGlass.png");
+    background-size: 41%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .roseBottle {
+  width: 30px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/roseBottle.jpg");
+    background-size: 98%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .whiteBottle,.whiteBottle {
+	width: 30px;
+    height: 46px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/whiteBottle.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .whiteGlass,.whiteGlass {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/whiteGlass.jpg");
+    background-size: 122%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .whiteGlass {
+  width: 32px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/whiteGlass.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .whiteBottle {
+  width: 32px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/whiteBottle.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .redBottle,.redBottle {
+	width: 30px;
+    height: 51px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/redBottle.jpg");
+    background-size: 107%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a .redGlass,.redGlass {
+  width: 30px;
+  height: 50px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/redGlass.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.colaCan {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/drinkscan.jpg");
+    background-size: 122%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.colaBottle {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/drinkBottle.jpg");
+    background-size: 122%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.water {
+  width: 32px;
+  height: 45px;
+  background-position: 6px 0px;
+  background-image: url(assets/img/water.png);
+  background-size: 52%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.juice {
+  width: 32px;
+  height: 45px;
+  background-position: 5px 0px;
+  background-image: url(assets/img/fruit.png);
+  background-size: 83%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.juice2 {
+  width: 32px;
+  height: 53px;
+  background-position: 5px 0px;
+  background-image: url(assets/img/drinks4.png);
+  background-size: 77%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.lassi {
+  width: 32px;
+  height: 66px;
+  background-position: -6px 0px;
+  background-image: url(assets/img/lassi.jpg);
+  background-size: 155%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.mangoLassi {
+  width: 32px;
+  height: 63px;
+  background-position: -10px 0px;
+  background-image: url(assets/img/mangoLassi.jpeg);
+  background-size: 175%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.coffee {
+  width: 33px;
+  height: 42px;
+  background-position: 0px 0px;
+  background-image: url(assets/img/coffee.png);
+  background-size: 109%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.tea {
+  width: 32px;
+  height: 60px;
+  background-position: 0px 0px;
+  background-image: url(assets/img/tea.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.greenTea {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/greenTea.jpg");
+    background-size: 104%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.alcoholDrinks {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/drinks6.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.alcoholDrinks2 {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/drinks5.png");
+    background-size: 122%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.alcoholDrinks3 {
+	width: 32px;
+  height: 66px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/drinks2.jpg");
+    background-size: 122%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.alcoholBottle {
+  width: 32px;
+  height: 66px;
+  background-position: 9px 0px;
+  background-image: url(assets/img/alcoholBottle.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.footerDrinks .redGlass {
+  width: 30px;
+  height: 38px;
+    background-position: 5px 0px;
+    background-image: url("assets/img/redGlass.jpg");
+    background-size: 73%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
+.footerDrinks .redBottle {
+  width: 30px;
+  height: 38px;
+    background-position: 0px 0px;
+    background-image: url("assets/img/redBottle.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	display:inline-block;
+}
 .footerDrinks {
 	margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footerDrinks .headTitle {
+	padding: 12px 0 0;
+  font-family: cursive;
+  font-size: 15px;
+}
+.footerDrinks .headTitle span {
+  text-decoration: underline;
+}
+.footerDrinks .col-sm-2 {
+  display: flex;
 }
 .footerDrinks .notes {
-	font-size: 30px;
-    font-family: "Tangerine", cursive;
+  font-size: 13px;
+  font-family: monospace;
+  font-weight: 600;
+  vertical-align: middle;
+  padding-top: 12px;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading {
   font-size: 20px;
@@ -2729,6 +3020,16 @@ RESERVATION SECTION
     background-repeat: no-repeat;
 	vertical-align:sub;
 	display:inline-block;
+}
+.wine {
+  width: 23px;
+  height: 23px;
+  background-position: 3px 0px;
+  background-image: url(assets/img/wine.png);
+  background-size: 31%;
+  background-repeat: no-repeat;
+  vertical-align: sub;
+  display: inline-block;
 }
 .callHome{
 	width: 50px;
