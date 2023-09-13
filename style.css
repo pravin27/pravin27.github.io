@@ -1178,7 +1178,7 @@ RESERVATION SECTION
   display: inline;
   float: left;
   margin-bottom: 30px;
-  width: 33.33%;
+  /** width: 33.33%; **/
 }
 #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery:last-child {
   margin-bottom: 0px;
